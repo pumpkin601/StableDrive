@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use StableDrive, please cite the accompanying paper."
+title: "StableDrive"
+type: software
+authors:
+  - family-names: "Liu"
+    given-names: "Yuchen"
+repository-code: "https://github.com/pumpkin601/StableDrive"
+license: MIT

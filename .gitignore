@@ -1,0 +1,42 @@
+# Data, weights, runs, and logs are intentionally not versioned.
+/data/
+/datasets/nuscenes/
+/datasets/momad_infos/
+/datasets/momad_kmeans/
+/checkpoints/**/*.pth
+/checkpoints/**/*.pt
+/checkpoints/**/*.ckpt
+/checkpoints/*.pth
+/checkpoints/*.pt
+/checkpoints/*.ckpt
+/work_dirs/
+/runs/
+/logs/
+/outputs/
+/wandb/
+/external/navsim/
+
+# Generated evaluation artifacts.
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.log
+*.out
+events.out.tfevents.*
+
+# Python/CUDA build products.
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Local credentials and editor state.
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
